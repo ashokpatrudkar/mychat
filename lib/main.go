@@ -10,10 +10,6 @@ import (
 
 var port = "8080"
 
-func sum(a int, b int) int {
-	return a + b
-}
-
 // RunHost takes an ip as argument and listens on it for connections
 func RunHost(ip string) {
 	ipAndPort := ip + ":" + port
